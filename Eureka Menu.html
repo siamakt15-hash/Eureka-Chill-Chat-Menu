@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eureka Chill and Chat Menu</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+header {
+    background: linear-gradient(90deg, #ff7b00, #ffb700);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.section {
+    padding: 20px;
+}
+
+.section h2 {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.price {
+    color: #ff7b00;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+/* Category Colors */
+.ice { background: #e0f7fa; }
+.bites { background: #fff3e0; }
+.specials { background: #e8f5e9; }
+.choma { background: #ffebee; }
+.drinks { background: #e3f2fd; }
+.pizza { background: #fce4ec; }
+.dessert { background: #ede7f6; }
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🍔 Eureka Chill and Chat Menu</h1>
+    <p>Fresh • Delicious • Affordable</p>
+</header>
+
+<!-- ICE CREAM -->
+<div class="section ice">
+    <h2>🍦 Ice Cream & Milkshakes</h2>
+    <div class="menu-grid">
+        <div class="card"><b>Big Cone</b><div class="price">7,000</div></div>
+        <div class="card"><b>Small Cone</b><div class="price">4,000</div></div>
+        <div class="card"><b>Regular cup</b><div class="price">8,000</div></div>
+        <div class="card"><b>Big Cup</b><div class="price">7,000</div></div>
+        <div class="card"><b>Vanilla Shake</b><div class="price">10,000</div></div>
+        <div class="card"><b>Oreo Shake</b><div class="price">14,000</div></div>
+        <div class="card"><b>Nutella Shake</b><div class="price">14,000</div></div>
+    </div>
+</div>
+
+<!-- BITES -->
+<div class="section bites">
+    <h2>🥟 Bites</h2>
+    <div class="menu-grid">
+        <div class="card"><b>Samosa</b><div class="price">1,000</div></div>
+        <div class="card"><b>Spring Rolls</b><div class="price">1,000</div></div>
+        <div class="card"><b>Chapati</b><div class="price">1,000</div></div>
+        <div class="card"><b>Donut</b><div class="price">1,000</div></div>
+        <div class="card"><b>Kebab</b><div class="price">3,000</div></div>
+    </div>
+</div>
+
+<!-- SPECIALS -->
+<div class="section specials">
+    <h2>🍝 Specials</h2>
+    <div class="menu-grid">
+        <div class="card"><b>Burrito</b><div class="price">10,000</div></div>
+        <div class="card"><b>Spaghetti Bolognaise</b><div class="price">10,000</div></div>
+        <div class="card"><b>Quesadillas</b><div class="price">15,000</div></div>
+        <div class="card"><b>Chicken Nachos</b><div class="price">10,000</div></div>
+        <div class="card"><b>Chicken Nuggets</b><div class="price">15,000</div></div>
+        <div class="card"><b>Alfredo Pasta</b><div class="price">15,000</div></div> 
+    </div>
+</div>
+
+<!-- CHOMA -->
+<div class="section choma">
+    <h2>🔥 Backyard Choma</h2>
+    <div class="menu-grid">
+        <div class="card"><b>Mbuzi Choma</b><div class="price">13,000</div></div>
+        <div class="card"><b>T-Bone Choma</b><div class="price">15,000</div></div>
+        <div class="card"><b>Beef Mishkaki</b><div class="price">7,000</div></div>
+        <div class="card"><b>Fish Choma</b><div class="price">22,000</div></div>
+    </div>
+</div>
+
+<!-- DRINKS -->
+<div class="section drinks">
+    <h2>🥤 Cold Drinks</h2>
+    <div class="menu-grid">
+        <div class="card"><b>Fresh Juice</b><div class="price">5,000</div></div>
+        <div class="card"><b>Lemonade</b><div class="price">5,000</div></div>
+        <div class="card"><b>Soft Drinks</b><div class="price">2,000</div></div>
+        <div class="card"><b>Energy Drink</b><div class="price">4,000</div></div>
+    </div>
+</div>
+
+<!-- PIZZA -->
+<div class="section pizza">
+    <h2>🍕 Pizza, Wraps & Sandwiches</h2>
+    <div class="menu-grid">
+        <div class="card"><b>Medium Pizza</b><div class="price">18,000</div></div>
+        <div class="card"><b>Large Pizza</b><div class="price">23,000</div></div>
+        <div class="card"><b>Seafood Pizza</b><div class="price">30,000</div></div>
+        <div class="card"><b>Eureka Classic BBQ Pizza</b><div class="price">28,000</div></div>
+        <div class="card"><b>Chicken Chippollatap Pizza</b><div class="price">24,000</div></div>  
+        <div class="card"><b>Veg-Extreme Pizza</b><div class="price">18,000</div></div>
+        <div class="card"><b>Veg-Deluxe Pizza</b><div class="prive">18,000</div></div>
+        <div class="card"><b>Wraps</b><div class="price">10,000</div></div>
+    </div>
+</div>
+
+<!-- DESSERT -->
+<div class="section dessert">
+    <h2>🍰 Desserts</h2>
+    <div class="menu-grid">
+        <div class="card"><b>Cupcake</b><div class="price">1,000</div></div>
+        <div class="card"><b>Cake Slice[Per slice]{Chocolate, Banana, Fruit}</b><div class="price">3,500</div></div>
+        <div class="card"><b>Other Cake slices</b><div class="price">3,000</div></div>
+        <div class="card"><b>Cake Loaf</b><div class="price">20,000</div></div>
+    </div>
+</div>
+<div class="card"><b>Packaging Takeaway</b><div class="price">1,000</div></div>
+
+<footer>
+    <p>© 2026 Eureka MiniShop</p>
+</footer>
+
+</body>
+</html>
